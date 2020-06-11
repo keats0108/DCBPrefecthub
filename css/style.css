@@ -810,6 +810,18 @@ header{
     transform: translate(0, 30vh);
 }
 
+@media screen and (max-width: 700px) {
+    .logo img{
+        width: 10cm;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo img{
+        width: 7cm;
+    }
+}
+
 .downarrow{
     color: #b6000c;
     font-size: 1.75em;
