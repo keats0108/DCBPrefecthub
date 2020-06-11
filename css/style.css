@@ -797,10 +797,12 @@ figure figcaption {
 
 /*Custom CSS*/
 header{
+    
+    /*BannerDesign*/
     height: 100vh;
     width: 100vh;
     display: block;
-    /*background-image: linear-gradient(black, white);*/
+    background-image: linear-gradient(black, white);
     background-image: url("https://i.ibb.co/wpMGnSV/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -808,6 +810,10 @@ header{
 
 .logo{
     transform: translate(0, 30vh);
+}
+
+.schl_logo {
+    height: 10vh;
 }
 
 @media screen and (max-width: 700px) {
