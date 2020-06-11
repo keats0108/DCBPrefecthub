@@ -331,21 +331,10 @@ p {
   vertical-align: base;
   width: 100px;
 }
-.fh5co-post-prev span i,
-.fh5co-post-next span i {
-  top: 7px;
-  position: relative;
-  font-size: 30px;
-  color: #000;
-}
 
 .fh5co-post-prev {
   left: 0;
-  margin-left: -25px;
-}
-.fh5co-post-prev:hover {
-  margin-left: 10px;
-  color: #000;
+  margin-left: 25px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-post-prev {
@@ -356,11 +345,7 @@ p {
 
 .fh5co-post-next {
   right: 0;
-  margin-right: -25px;
-}
-.fh5co-post-next:hover {
-  margin-right: 10px;
-  color: #000;
+  margin-right: 25px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-post-next {
